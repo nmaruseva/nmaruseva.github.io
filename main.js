@@ -173,7 +173,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col-12 px-0 block-1\" [class.active]=\"block1\" (mouseenter)=\"block1 = true\">\n    <div class=\"text-block-1\">\n        <div class=\"secondary-1\">Крик&nbsp;природы</div>\n        <div class=\"primary-1\">Der&nbsp;Schrei&nbsp;der&nbsp;Natur</div>\n    </div>\n    <img src=\"/assets/intro.png\" alt=\"\" class=\"img-fluid\">\n    <img src=\"/assets/the-scream.png\" alt=\"\" class=\"picture\">\n</div>\n<div class=\"col-12 px-0 block-2\" [class.active]=\"block2\" (mouseenter)=\"startAnimation('block2')\">\n    <div class=\"text-block-2\">\n        <div class=\"primary-2\">Пришло время узнать что происходит на&nbsp;картине «Крик»</div>\n        <div class=\"secondary-2\">Погрузиться внутрь картины и&nbsp;своими глазами увидеть что так поразило Эдварда Мунка\n        </div>\n    </div>\n    <div class=\"block-ellipse\">\n        <img src=\"/assets/ellipse-s.png\" class=\"ellipse-s\" alt=\"\">\n        <img src=\"/assets/ellipse-m.png\" class=\"ellipse-m\" alt=\"\">\n        <img src=\"/assets/ellipse-l.png\" class=\"ellipse-l\" alt=\"\">\n    </div>\n    <img src=\"/assets/munch.png\" alt=\"\" class=\"munch-portret\">\n</div>\n<div class=\"col-12 px-0 block-picture\">\n    <div class=\"picture-wrapper\">\n        <ng-container *ngFor=\"let pic of pictureSet; let i = index;\">\n            <img [src]=\"pic.isHover ? pic.activePic : pic.passivePic\" alt=\"\" class=\"class pic\"\n                 (mouseenter)=\"pic.isHover = true\" (mouseout)=\"pic.isHover = false\">\n        </ng-container>\n    </div>\n</div>\n<div class=\"col-12 px-0 block-3\" [class.active]=\"block3\">\n    <div class=\"text-block-3-3\">\n        <div class=\"primary-3-3\">\n            Культовая картина основаная на&nbsp;реальных событиях\n        </div>\n        <div class=\"secondary-3-3\">\n            Художник создал несколько вариаций известного сюжета в стремлении наиболее точно передать чувства охватившие его на берегу Осло-фьорда\n        </div>\n    </div>\n    <div class=\"text-block-3\">\n        <div class=\"secondary-3\">Лучшие&nbsp;виды</div>\n        <div class=\"primary-3\">Oslofjorden</div>\n    </div>\n    <div class=\"backgorund-block-3\">\n        <img src=\"/assets/volna3.png\" alt=\"\" class=\"img-fluid\">\n        <img src=\"/assets/volna2.png\" alt=\"\" class=\"img-fluid\">\n        <img src=\"/assets/volna1.png\" alt=\"\" class=\"img-fluid\">\n    </div>\n    <img src=\"/assets/htcviveon.png\" alt=\"\" class=\"htcviveon\" (mouseenter)=\"block3 = true\">\n</div>\n<div class=\"col-12 px-0 block-4\" [class.active]=\"block4\" (mouseenter)=\"block4 = true\">\n    <div class=\"text-block-4\">\n        <div class=\"primary-4\">Почувствуйте силы&nbsp;природы через&nbsp;опыт VR</div>\n        <div class=\"secondary-4\">Мунк умел уловить настроение норвежской природы, так что  зритель сам входит в резонанс\n            с пейзажем картины\n        </div>\n    </div>\n    <div class=\"planets\">\n        <img src=\"/assets/sphere-1.png\" alt=\"\" class=\"planet-1\">\n        <img src=\"/assets/sphere-2.png\" alt=\"\" class=\"planet-2\">\n        <img src=\"/assets/sphere-3.png\" alt=\"\" class=\"planet-3\">\n        <img src=\"/assets/sphere-4.png\" alt=\"\" class=\"planet-4\">\n    </div>\n</div>\n<div class=\"col-12 px-0 block-5\">\n    <img src=\"/assets/group-photo.png\" alt=\"\" class=\"img-fluid\">\n    <img src=\"/assets/group-photo-1.png\" alt=\"\" class=\"img-fluid\">\n    <img src=\"/assets/group-photo-2.png\" alt=\"\" class=\"img-fluid\">\n    <div class=\"text-block-5\">\n        <div class=\"primary-5\">Пейзаж вашего настроения на&nbsp;память</div>\n        <div class=\"secondary-5\">Личность художника отражают его картины. А&nbsp;какой пейзаж может описать ваше настроение?\n        </div>\n    </div>\n</div>\n\n<div class=\"col-12 block-video\">\n    <div class=\"block-video-wrapper my-5 mx-auto\">\n        <iframe src=\"https://www.youtube.com/embed/O_-vrCbTCYg\" height=\"100%\" width=\"100%\" frameborder=\"0\"\n                allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"\n                allowfullscreen></iframe>\n    </div>\n</div>\n<div class=\"col-12 text-center\">\n        <img src=\"/assets/contacts.png\" alt=\"\" class=\"contacts\">\n</div>"
+module.exports = "<div class=\"col-12 px-0 block-1\" [class.active]=\"block1\" (mouseenter)=\"block1 = true\">\n    <div class=\"text-block-1\">\n        <div class=\"secondary-1\">Крик&nbsp;природы</div>\n        <div class=\"primary-1\">Der&nbsp;Schrei&nbsp;der&nbsp;Natur</div>\n    </div>\n    <img src=\"/assets/intro.png\" alt=\"\" class=\"img-fluid\">\n    <img src=\"/assets/the-scream.png\" alt=\"\" class=\"picture\">\n</div>\n<div class=\"col-12 px-0 block-2\" [class.active]=\"block2\" (mouseenter)=\"startAnimation('block2')\">\n    <div class=\"text-block-2\">\n        <div class=\"primary-2\">Пришло время узнать что происходит на&nbsp;картине «Крик»</div>\n        <div class=\"secondary-2\">Погрузиться внутрь картины и&nbsp;своими глазами увидеть что так поразило Эдварда Мунка\n        </div>\n    </div>\n    <div class=\"block-ellipse\">\n        <img src=\"/assets/ellipse-s.png\" class=\"ellipse-s\" alt=\"\">\n        <img src=\"/assets/ellipse-m.png\" class=\"ellipse-m\" alt=\"\">\n        <img src=\"/assets/ellipse-l.png\" class=\"ellipse-l\" alt=\"\">\n    </div>\n    <img src=\"/assets/munch.png\" alt=\"\" class=\"munch-portret\">\n</div>\n<div class=\"col-12 px-0 block-picture\">\n    <div class=\"picture-wrapper\">\n        <ng-container *ngFor=\"let pic of pictureSet; let i = index;\">\n            <img [src]=\"pic.isHover ? pic.activePic : pic.passivePic\" alt=\"\" class=\"class pic\"\n                 (mouseenter)=\"pic.isHover = true\" (mouseout)=\"pic.isHover = false\">\n        </ng-container>\n    </div>\n</div>\n<div class=\"col-12 px-0 block-3\" [class.active]=\"block3\">\n    <div class=\"text-block-3-3\">\n        <div class=\"primary-3-3\">\n            Культовая картина основаная на&nbsp;реальных событиях\n        </div>\n        <div class=\"secondary-3-3\">\n            Художник создал несколько вариаций известного сюжета в стремлении наиболее точно передать чувства охватившие его на берегу Осло-фьорда\n        </div>\n    </div>\n    <div class=\"text-block-3\">\n        <div class=\"secondary-3\">Лучшие&nbsp;виды</div>\n        <div class=\"primary-3\">Oslofjorden</div>\n    </div>\n    <div class=\"backgorund-block-3\">\n        <img src=\"/assets/volna3.png\" alt=\"\" class=\"img-fluid\">\n        <img src=\"/assets/volna2.png\" alt=\"\" class=\"img-fluid\">\n        <img src=\"/assets/volna1.png\" alt=\"\" class=\"img-fluid\">\n    </div>\n    <img src=\"/assets/htcviveon.png\" alt=\"\" class=\"htcviveon\" (mouseenter)=\"block3 = true\">\n</div>\n<div class=\"col-12 px-0 block-4\" [class.active]=\"block4\" (mouseenter)=\"block4 = true\">\n    <div class=\"text-block-4\">\n        <div class=\"primary-4\">Почувствуйте силы&nbsp;природы через&nbsp;опыт VR</div>\n        <div class=\"secondary-4\">Мунк умел уловить настроение норвежской природы, так что  зритель сам входит в резонанс\n            с пейзажем картины\n        </div>\n    </div>\n    <div class=\"planets\">\n        <img src=\"/assets/sphere-1.png\" alt=\"\" class=\"planet-1\">\n        <img src=\"/assets/sphere-2.png\" alt=\"\" class=\"planet-2\">\n        <img src=\"/assets/sphere-3.png\" alt=\"\" class=\"planet-3\">\n        <img src=\"/assets/sphere-4.png\" alt=\"\" class=\"planet-4\">\n    </div>\n</div>\n<div class=\"col-12 px-0 block-5\">\n    <img src=\"/assets/group-photo.png\" alt=\"\" class=\"img-fluid\">\n    <img src=\"/assets/group-photo-1.png\" alt=\"\" class=\"img-fluid\">\n    <img src=\"/assets/group-photo-2.png\" alt=\"\" class=\"img-fluid\">\n    <div class=\"text-block-5\">\n        <div class=\"primary-5\">Пейзаж вашего настроения на&nbsp;память</div>\n        <div class=\"secondary-5\">Личность художника отражают его картины. А&nbsp;какой пейзаж может описать ваше настроение?\n        </div>\n    </div>\n</div>\n\n<div class=\"col-12 block-video\">\n    <div class=\"block-video-wrapper my-5 mx-auto\">\n        <iframe [src]=\"youTubeUrl\" height=\"100%\" width=\"100%\" frameborder=\"0\"\n                allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"\n                allowfullscreen></iframe>\n    </div>\n</div>\n<div class=\"col-12 text-center\">\n        <img src=\"/assets/contacts.png\" alt=\"\" class=\"contacts\">\n</div>"
 
 /***/ }),
 
@@ -200,8 +200,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContainerComponent", function() { return ContainerComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 
 
+
+var youtubeConf = __webpack_require__(/*! src/assets/youtube.json */ "./src/assets/youtube.json");
 var pictureSetMock = [
     {
         isHover: false,
@@ -265,8 +268,8 @@ var pictureSetMock = [
     }
 ];
 var ContainerComponent = /** @class */ (function () {
-    function ContainerComponent(renderer) {
-        this.renderer = renderer;
+    function ContainerComponent(sanitizer) {
+        this.sanitizer = sanitizer;
         this.classes = 'row';
         this.block1 = false;
         this.block2 = false;
@@ -275,6 +278,7 @@ var ContainerComponent = /** @class */ (function () {
         this.isBlock2Started = false;
     }
     ContainerComponent.prototype.ngOnInit = function () {
+        this.youTubeUrl = this.sanitizer.bypassSecurityTrustResourceUrl(youtubeConf.url);
         this.pictureSet = pictureSetMock;
     };
     ContainerComponent.prototype.startAnimation = function (block) {
@@ -306,7 +310,7 @@ var ContainerComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./container.component.html */ "./src/app/modules/container/container.component.html"),
             styles: [__webpack_require__(/*! ./container.component.scss */ "./src/app/modules/container/container.component.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]])
     ], ContainerComponent);
     return ContainerComponent;
 }());
@@ -549,6 +553,17 @@ var HeaderModule = /** @class */ (function () {
 }());
 
 
+
+/***/ }),
+
+/***/ "./src/assets/youtube.json":
+/*!*********************************!*\
+  !*** ./src/assets/youtube.json ***!
+  \*********************************/
+/*! exports provided: url, default */
+/***/ (function(module) {
+
+module.exports = {"url":"https://www.youtube.com/embed/O_-vrCbTCYg"};
 
 /***/ }),
 
